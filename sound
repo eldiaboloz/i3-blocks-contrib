@@ -51,11 +51,11 @@ vol=$(getVolume)
 if (( $vol == 0 )); then
 	icon=""
 elif (( $vol < 34 )); then
-	icon=""
+	icon=""
 elif (( $vol < 67 )); then
-	icon=""
+	icon=""
 else
-	icon=""
+	icon=""
 fi
 
 # determine mute status
